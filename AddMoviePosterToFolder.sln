@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddMoviePosterToFolder", "AddMoviePosterToFolder.csproj", "{E5BC3E35-8373-4AE2-86AD-032048E03487}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5BC3E35-8373-4AE2-86AD-032048E03487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BC3E35-8373-4AE2-86AD-032048E03487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BC3E35-8373-4AE2-86AD-032048E03487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BC3E35-8373-4AE2-86AD-032048E03487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF26C3DC-863C-4B49-8B97-771C7826DF6E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AddMoviePosterToFolder": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Peliculas"
+    }
+  }
+}
