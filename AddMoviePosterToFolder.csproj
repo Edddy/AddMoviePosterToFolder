@@ -3,6 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Eduardo Molteni</Authors>
+    <Company>Bizcacha</Company>
+    <Product />
+    <RepositoryUrl>https://github.com/Edddy/AddMoviePosterToFolder/releases/new</RepositoryUrl>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
