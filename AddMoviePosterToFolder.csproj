@@ -8,6 +8,13 @@
     <Product />
     <RepositoryUrl>https://github.com/Edddy/AddMoviePosterToFolder/releases/new</RepositoryUrl>
     <PackageReleaseNotes>First release</PackageReleaseNotes>
+    
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+    <DebugType>embedded</DebugType>
+    
   </PropertyGroup>
 
 </Project>

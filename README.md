@@ -5,5 +5,6 @@ This is a simple (no nuget, no external libraries, no regex, no API tokens or ca
 
 Arguments
 ---------
-Just call `AddMoviePosterToFolder.exe PathToYourMoviesFolder`, or omit the argument to execute in the current folder
+Just call `AddMoviePosterToFolder.exe "C:\Movies"`, or omit the argument to execute in the current folder. 
+
 

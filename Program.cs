@@ -12,7 +12,7 @@ namespace AddMoviePosterToFolder {
             foreach (var Folder in FoldersToSearch) {
                 try {
                     var MovieTitle = GetNormalizedTitle( Folder );
-                    var URLToFile = SearchPosterInGoogle( "\"" + MovieTitle + "\" movie poster" );
+                    var URLToFile = SearchPosterInBing( "\"" + MovieTitle + "\" poster" );
                     if (URLToFile != null) {
                         DownloadAndSaveImageToFolder(URLToFile, Folder);
                         Console.WriteLine($"OK. Added poster for {MovieTitle}");
@@ -79,7 +79,7 @@ namespace AddMoviePosterToFolder {
             return false;
         }
 
-        private static string SearchPosterInGoogle(string MovieTitle) {
+        private static string SearchPosterInBing(string MovieTitle) {
             // Google images it's all obfuscated to avoid this, so we go Bing!
             // Some foreing/not popular movies fail to get a good poster
             // Home someone can improve it
@@ -110,5 +110,6 @@ namespace AddMoviePosterToFolder {
             }
             return null;
         }
+
     }
 }
